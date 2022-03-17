@@ -1,5 +1,5 @@
 declare module "@ckeditor/ckeditor5-react" {
-  import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
+  import ClassicEditor from "ckeditor5-custom-build/build/ckeditor";
   interface CKEditorProps {
     editor: typeof ClassicEditor;
     data?: any;
@@ -26,6 +26,4 @@ declare module "@ckeditor/ckeditor5-react" {
   class CKEditorContext extends React.Component<CKEditorContextProps, {}> {}
 }
 
-declare module "@ckeditor/ckeditor5-editor-classic/src/classiceditor";
 declare module "ckeditor5-custom-build/build/ckeditor";
-declare module "ckeditor5-custom-build";
