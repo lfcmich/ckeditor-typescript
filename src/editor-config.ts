@@ -6,7 +6,4 @@ export const CKEDITOR_CONFIG: object = {
     uploadUrl: UPLOAD_URL,
   },
   extraPlugins: [],
-  table: {
-    contentToolbar: ["tableColumn", "tableRow", "mergeTableCells"],
-  },
 };
