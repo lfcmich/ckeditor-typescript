@@ -12,6 +12,7 @@ yarn install
 [https://ckeditor.com/ckeditor-5/online-builder/](https://ckeditor.com/ckeditor-5/online-builder/)
 2. Replace the downloaded contents of ckeditor folder
 3. Configure new build
+
 ```bash
 cd ckeditor
 yarn install && yarn build

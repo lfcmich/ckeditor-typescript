@@ -15,7 +15,6 @@ function App() {
         <CKEditor
           editor={ClassicEditor}
           data={htmlData}
-          config={CKEDITOR_CONFIG}
           onReady={(editor) => {
             console.log("Editor is ready to use!", editor);
           }}

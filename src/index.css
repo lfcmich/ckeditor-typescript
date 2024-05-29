@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ck-content {
+  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.ck-content h2 {
+  font-size: 1.2em !important;
+  margin-bottom: 0.5em !important;
+  color: #c63d81 !important;
+  line-height: 1.5;
+}
+
+.ck-content h3 {
+  font-size: 1em !important;
+  margin-bottom: 0.3em !important;
+  color: #0066b4;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.ck-content h4 {
+  font-size: 0.8em !important;
+  margin-bottom: 0.3em !important;
+  color: #0066b4;
+  line-height: 1.5;
+}
+
+.ck-content strong {
+  color: #ff622b;
+}
+
+.ck-content a {
+  color: #2150a1;
+}
+
+.ck-content .text-big {
+  font-size: 20px;
+}
+
+#ckeditor_content .ck-content {
+  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+  /* .ck-content h2 {
+        font-size: 1.2em !important;
+        margin-bottom: 0.5em !important;
+        color: #c63d81 !important;
+        line-height: 1.5;      
+    }
+    
+    .ck-content h3 {
+        font-size: 1em !important;
+        margin-bottom: 0.3em !important;
+        color: #0066b4;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+    
+    .ck-content h4 {
+        color: hsl(208, 88%, 52%);
+        line-height: 1.5;
+    }
+    
+    .ck-content strong {
+        color: #c63d81;
+    }
+    
+    .ck-content a {
+        color: #2150a1;
+    }
+    
+    .ck-content .text-big{
+        font-size: 20px;
+    } */
+}
+
+#ckeditor_content .ck-content h2 {
+  font-size: 1.2em !important;
+  margin-bottom: 0.5em !important;
+  color: #c63d81 !important;
+  line-height: 1.5;
+}
+
+#ckeditor_content .ck-content h3 {
+  font-size: 1em !important;
+  margin-bottom: 0.3em !important;
+  color: #0066b4;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+#ckeditor_content .ck-content h4 {
+  font-size: 0.8em !important;
+  margin-bottom: 0.3em !important;
+  color: #0066b4;
+  line-height: 1.5;
+}
+
+#ckeditor_content .ck-content strong {
+  color: #c63d81;
+}
+
