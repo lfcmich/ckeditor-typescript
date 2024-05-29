@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import { CKEditor } from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "ckeditor5-custom-build/build/ckeditor";
-import { CKEDITOR_CONFIG } from "./editor-config";
+import { editorConfig } from "./editor-config";
 
 function App() {
   const [htmlData, setHtmlData] = useState<string>(
@@ -15,6 +15,7 @@ function App() {
         <CKEditor
           editor={ClassicEditor}
           data={htmlData}
+          config={editorConfig}
           onReady={(editor) => {
             console.log("Editor is ready to use!", editor);
           }}
