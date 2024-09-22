@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./App.css";
-import { CKEditor } from "@ckeditor/ckeditor5-react";
+import { CKEditor, CKEditorProps } from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "ckeditor5-custom-build/build/ckeditor";
 import { editorConfig } from "./editor-config";
+
 
 function App() {
   const [htmlData, setHtmlData] = useState<string>(
@@ -17,12 +18,11 @@ function App() {
           data={htmlData}
           config={editorConfig}
           onReady={(editor) => {
-            console.log("Editor is ready to use!", editor);
+            // console.log("Editor is ready to use!", editor);
           }}
           onChange={(event, editor) => {
             const data = editor.getData();
             setHtmlData(data);
-            console.log({ event, editor, data });
           }}
           onBlur={(event, editor) => {
             console.log("Blur.", editor);

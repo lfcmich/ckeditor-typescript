@@ -76,7 +76,7 @@ Editor.builtinPlugins = [
   TableProperties,
   TableToolbar,
   TextTransformation,
-  Underline
+  Underline,
 ]
 
 // Editor configuration.
@@ -124,18 +124,22 @@ Editor.defaultConfig = {
     colors: COLORS
   },
   table: {
+    defaultProperties: {
+      alignment: 'left'
+    },
     contentToolbar: [
       'tableColumn',
       'tableRow',
       'mergeTableCells',
       'tableCellProperties',
-      'tableProperties'
+      'tableProperties',
     ],
     tableCellProperties: {
       borderColors: COLORS,
       backgroundColors: COLORS
     },
     tableProperties: {
+      textAlign: 'left',
       borderColors: COLORS,
       backgroundColors: COLORS
     }

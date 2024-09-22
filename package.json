@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "dependencies": {
-    "@ckeditor/ckeditor5-react": "^7.0.0",
+    "@ckeditor/ckeditor5-react": "^9.2.0",
     "@ckeditor/ckeditor5-watchdog": "^41.4.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -41,9 +41,9 @@
     ]
   },
   "devDependencies": {
-    "vite": "^5.2.12",
+    "typescript": "^5.4.5",
+    "vite": "^5.4.7",
     "vite-plugin-svgr": "^4.2.0",
-    "vite-tsconfig-paths": "^4.3.2",
-    "typescript": "^5.4.5"
+    "vite-tsconfig-paths": "^4.3.2"
   }
 }
