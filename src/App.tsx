@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import "./App.css";
 import { CKEditor, CKEditorProps } from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "ckeditor5-custom-build/build/ckeditor";
 import { editorConfig } from "./editor-config";
-
+import "./App.css";
 
 function App() {
   const [htmlData, setHtmlData] = useState<string>(
