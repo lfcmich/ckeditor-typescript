@@ -5,5 +5,6 @@ export const editorConfig: object = {
   simpleUpload: {
     uploadUrl: UPLOAD_URL,
   },
+  licenseKey: 'GPL',
   extraPlugins: [],
 };
